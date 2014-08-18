@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+/**
+
+This is simply a script that will allow the module to run properly 
+
+**/
+
+
+var Calibrator = require("../lib/calibrator.js");
+
+Calibrator.setup();
+
