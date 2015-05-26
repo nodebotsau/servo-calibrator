@@ -2,13 +2,16 @@
   "name": "servo-calibrator",
   "version": "0.1.5",
   "description": "A basic Command Line UI that helps find your centre point for a continuous rotation servo",
-  "main": "bin/calibrate",
+  "main": "./lib/calibrator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/nodebotsau/servo-calibrator.git"
+  },
+  "bin": {
+      "calibrate": "./bin/calibrate"
   },
   "keywords": [
     "nodebots",
@@ -17,7 +20,7 @@
     "johnny-five",
     "firmata"
   ],
-  "author": "Andrew Fisher",
+  "author": "Andrew Fisher <ajfisher.td@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nodebotsau/servo-calibrator/issues"
